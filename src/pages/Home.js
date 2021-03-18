@@ -11,7 +11,7 @@ class Home extends React.Component {
       password: "",
     },
     error: false,
-    errorMessage: "Usuario o contraseña invalidos",
+    errorMessage: "Wrong username or password. Try it again",
   };
 
   handleSubmit = (e) => {
@@ -47,7 +47,7 @@ class Home extends React.Component {
         console.log(error);
         this.setState({
           error: true,
-          errorMessage: "Usuario o contraseña incorrectos",
+          errorMessage: "Wrong username or password",
         });
       });
   };

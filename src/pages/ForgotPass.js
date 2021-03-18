@@ -45,7 +45,7 @@ class ForgotPass extends React.Component {
         console.log(error);
         this.setState({
           error: true,
-          errorMessage: "El email no ha sido registrado anteriormente",
+          errorMessage: "Email has not been registered before",
         });
       });
   };
