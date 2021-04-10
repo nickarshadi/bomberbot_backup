@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import About from "../pages/About";
+import About from "../components/About.js";
 import Layout from "../Layout";
 import TextEditor from "../pages/TextEditor";
 import SignUp from "../pages/SignUp";
